@@ -1,5 +1,18 @@
-img.hero.main {
-    width: 500px;
-    height: 500px;
+h1{
+    color: cadetblue
+}
+h2{
+    color: darkcyan
+}
+p{
+    color: darkseagreen
+}
+
+img.main.hero {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px
     
 }
