@@ -1,14 +1,16 @@
-h1{
+h1 {
     color: cadetblue
 }
-h2{
+
+h2 {
     color: darkcyan
 }
-p{
+
+p {
     color: darkorange
 }
 
-img.main.hero{
+img.main.hero {
     max-width: 100%;
     height: auto;
     margin-left: auto;
