@@ -21,3 +21,17 @@ months = {
  
 print(months.get(2))
 print(months[2])
+
+#exception handling
+
+try:
+    user_input = int(input("100 divide by: "))
+    print("answer = " + str(100/user_input))
+except ZeroDivisionError as err:
+    print("cant divide by zero!")
+    print(err)
+    print(err.with_traceback)
+except ValueError as err:
+    print("invalid input!")
+    print(err)
+    print(err.with_traceback)
