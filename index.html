@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +9,53 @@
     <link rel="shortcut icon" href="vsc_test_puppy.ico" />
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="src/products.html">Products</a></li>
-                <li>Mission & Vision</li>
-                <li>About Us</li>
-                <li>Contact Us</li>
-            </ul>
-        </nav>
+        <header>
+            <img src="images/html5_css3_icon.svg" alt="html5_css3_icon">
+
+            <nav>
+                <a href="#" class="hide-desktop">
+                    <img src="images/3bar_menu.svg" alt="mobile-toggle menu" class="menu" id="menu">
+                </a>
+
+                <ul class="show-desktop hide-desktop" id="nav-menu">
+                    <li class="exit-btn hide-desktop" id="exit"><img src="images/exit.svg" alt="exit"></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="src/products.html">Products</a></li>
+                    <li><a href="src/mission_vision.html">Mission & Vision</a></li>
+                    <li><a href="src/about_us.html">About Us</a></li>
+                    <li><a href="src/about_us.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-    <h1>Hello there</h1>
-    <br>
-    <img src="images/html5_css3_icon.jpg" alt="html5_css3_icon" class="main images">
-    <br>
-    <img src="images/html5_css3.jpg" alt="html5_css3" class="main images">
-    <br>
-    <h2 title="our coding site">welcome to this site</h2>
-	<p title="all the things we can do here">lets see all the cool things we can do</p>
-    <p>we can learn to code web pages</p>
-    <br>
-    <p>we can learn the following by doing practical examples</p>
-    <ul>
-        <li><button type="submit">learn html 5</button></li> <br>
-        <li><button type="submit">learn css 3</button></li> <br>
-        <li><button type="submit">learn javascript</button></li> <br> 
-    </ul>
-    <p>we can also follow along with this <a href="https://www.youtube.com/watch?v=8gNrZ4lAnAw">utube video</a></p>
+
+    <div>
+        <section>
+            <img src="images/html5_css3.jpg" alt="html5_css3_image" class="main images">
+            <br>
+            <h1>Hello there</h1>
+
+            <h2 title="our coding site">welcome to this site</h2>
+
+            <p title="all the things we can do here">lets see all the cool things we can do</p>
+            <p>we can learn to code web pages</p>
+            <br>
+            <p>we can learn the following by doing practical examples</p>
+            <ul>
+                <li><button type="submit">learn html 5</button></li> <br>
+                <li><button type="submit">learn css 3</button></li> <br>
+                <li><button type="submit">learn javascript</button></li> <br>
+            </ul>
+            <p>we can also follow along with this <a href="https://www.youtube.com/watch?v=8gNrZ4lAnAw">utube video</a>
+            </p>
+
+
+        </section>
+
+    </div>
 </body>
+
 </html>
