@@ -3,3 +3,5 @@
 .vscode/
 images/xtra-img/*
 
+*.code-workspace
+.code-workspace/*

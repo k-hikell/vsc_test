@@ -10,6 +10,7 @@ p {
     color: darkorange
 }
 
+<<<<<<< HEAD
 img.logo {
     max-width: 50%;
     height: 50%;
@@ -18,7 +19,8 @@ img.logo {
     border-radius: 4px
 }
 
-img.main.images {
+
+img.main-images {
     max-width: 100%;
     height: auto;
     margin-left: auto;
